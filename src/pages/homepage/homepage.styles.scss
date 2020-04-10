@@ -15,21 +15,16 @@
             align-items: center;
             width: 100%;
 
-            ul li{
-                display: inline-block;
-                list-style: none;
-                margin: 0 .8em;
+            a{
+                display: block;
+                color: inherit;
+                text-decoration: none;
+                font-size: 18px;
+                margin: 0 1em;
 
-                a{
-                    display: block;
-                    color: inherit;
-                    text-decoration: none;
-                    font-size: 18px;
-
-                    &:hover{
-                        color: #4e5283;
-                        transition: .3s;
-                    }
+                &:hover{
+                    color: #4e5283;
+                    transition: .3s;
                 }
             }
         }

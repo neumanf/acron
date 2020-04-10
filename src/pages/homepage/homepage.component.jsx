@@ -25,11 +25,9 @@ const Homepage = (props) => {
                     </Link>
                 </div>
                 <nav>
-                    <ul>
-                        <li><a href="/about">Sobre</a></li>
-                        <li><a href="/usage">Como utilizar</a></li>
-                        <li><a href="mailto:guiYhmmoNshpDGAUr6@protonmail.com">Suporte</a></li>
-                    </ul>
+                    <Link to="/about">Sobre</Link>
+                    <Link to="/usage"><p>Como utilizar</p></Link>
+                    <a href="mailto:guiYhmmoNshpDGAUr6@protonmail.com">Suporte</a>
                 </nav>
             </div>
             <div className="hero">
