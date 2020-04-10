@@ -17,9 +17,15 @@ const Usage = (props) => (
     >
         <Header />
         <div className="video-container">
-            <iframe title="ACRON - Como utilizar" width="640" height="480"
-                src="https://youtu.be/3JKtzKFzig8">
-            </iframe>
+        <iframe 
+            title="ACRON usage"
+            width="768" 
+            height="432" 
+            src="https://www.youtube.com/embed/3JKtzKFzig8" 
+            frameborder="0" 
+            allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" 
+            allowfullscreen 
+        />
         </div>
     </motion.div>
 )
