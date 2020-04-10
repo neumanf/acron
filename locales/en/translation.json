@@ -1,0 +1,37 @@
+{
+    "nav": {
+        "home": "HOME",
+        "about": "ABOUT",
+        "usage": "HOW TO USE",
+        "support": "SUPPORT",
+        "app": "APP"
+    },
+    "home": {
+        "text": {
+            "1": "automate", 
+            "2": "boring", 
+            "3": "scheduling", 
+            "4": "tasks"
+        },
+        "button": "GET STARTED"
+    },
+    "about": {
+        "big_text": {
+            "1": "A new way to organize",
+            "2": "your academy schedule"
+        },
+        "small_text": "ACRON allows you to quickly create the best chronogram acording to your needs. By simply inserting the discipline’s name and its available schedules (which are available during the registration period), the app will be able to compute all possible chronograms. Check more details ",
+        "here": "here"
+    },
+    "app": {
+        "clear_btn": "CLEAR",
+        "run_btn": "RUN",
+        "discipline_name": "Discipline name",
+        "discipline_name_placeholder": "e.g: Fluid Mechanics",
+        "possible_schedules": "Possible schedules (separated by spaces)",
+        "possible_schedules_placeholder": "e.g: 24M56 46T12 46N34",
+        "add_discipline_btn": "Add discipline",
+        "disciplines": "DISCIPLINES",
+        "chronograms": "CHRONOGRAMS"
+    }
+}

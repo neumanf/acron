@@ -1,0 +1,37 @@
+{
+    "nav": {
+        "home": "HOME",
+        "about": "SOBRE",
+        "usage": "COMO USAR",
+        "support": "SUPORTE",
+        "app": "APP"
+    },
+    "home": {
+        "text": {
+            "1": "automatize", 
+            "2": "tarefas", 
+            "3": "entediantes", 
+            "4": "de planejamento"
+        },
+        "button": "COMECE JÁ"
+    },
+    "about": {
+        "big_text": {
+            "1": "Uma nova forma de organizar",
+            "2": "seu planejamento acadêmico"
+        },
+        "small_text": "ACRON permite-lhe criar rapidamente o melhor cronograma de acordo com as suas necessidades. Ao simplesmente inserir o nome da disciplina e seus horários disponíveis (que estão disponíveis durante o período de cadastramento), o aplicativo será capaz de computar todos os cronogramas possíveis. Verifique mais detalhes ",
+        "here": "aqui"
+    },
+    "app": {
+        "clear_btn": "LIMPAR",
+        "run_btn": "EXECUTAR",
+        "discipline_name": "Nome da disciplina",
+        "discipline_name_placeholder": "ex: Mecânica dos Fluidos",
+        "possible_schedules": "Horários disponíveis (separados por espaços)",
+        "possible_schedules_placeholder": "ex: 24M56 46T12 46N34",
+        "add_discipline_btn": "Adicionar disciplina",
+        "disciplines": "DISCIPLINAS",
+        "chronograms": "CRONOGRAMAS"
+    }
+}
