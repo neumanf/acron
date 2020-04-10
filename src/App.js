@@ -45,7 +45,7 @@ const App = () => {
       <AnimatePresence>
         <Switch>
           <Route 
-            path="/" 
+            path="/acron" 
             component={
               () => <Homepage 
                       pageVariants={pageVariants} 
@@ -56,7 +56,7 @@ const App = () => {
             exact 
           />
           <Route 
-            path="/about" 
+            path="/acron/about" 
             component={
               () => <About 
                       pageVariants={pageVariants} 
@@ -66,7 +66,7 @@ const App = () => {
             } 
           />
           <Route 
-            path="/usage" 
+            path="/acron/usage" 
             component={
               () => <Usage 
                       pageVariants={pageVariants} 
@@ -76,7 +76,7 @@ const App = () => {
             } 
           />
           <Route 
-            path="/app" 
+            path="/acron/app" 
             component={
               () => <Acron 
                       pageVariants={pageVariants} 
@@ -90,39 +90,5 @@ const App = () => {
     </BrowserRouter>
   );
 }
-
-// const AnimatedSwitch = withRouter(({ location }) => (
-//   <TransitionGroup>
-//     <CSSTransition key={location.key} classNames="toplayer toplayer2 toplayer3 toplayer4 toplayer5" timeout={1000}>
-//       <div class="top-layer"></div>
-//       <div class="top-layer top-layer--2"></div>
-//       <div class="top-layer top-layer--3"></div>
-//       <div class="top-layer top-layer--4"></div>
-//       <div class="top-layer top-layer--5"></div>
-//       <Switch location={location}>
-//         <Route path="/" component={Homepage} exact />
-//         <Route path="/about" component={About} />
-//         <Route path="/usage" component={Usage} />
-//         <Route path="/app" component={Acron} />
-//       </Switch>
-//     </CSSTransition>
-//   </TransitionGroup>
-// ));
-
-// function App() {
-//   return (
-//     <TransitionGroup>
-//       <CSSTransition classNames="top-layer active top-layer--2 top-layer--3 top-layer--4 top-layer--5" timeout={1000}>
-//         <BrowserRouter>
-//               <Switch>
-//                 <Route exact path='/' component={Homepage} />
-//                 <Route path='/about' component={About} />
-//                 <Route path='/app' component={Acron} />
-//               </Switch>
-//         </BrowserRouter>
-//       </CSSTransition>
-//     </TransitionGroup>
-//   );
-// }
 
 export default App;
