@@ -1,23 +1,23 @@
 {
   "files": {
-    "main.css": "/acron/static/css/main.3a24a090.chunk.css",
-    "main.js": "/acron/static/js/main.f9466142.chunk.js",
-    "main.js.map": "/acron/static/js/main.f9466142.chunk.js.map",
+    "main.css": "/acron/static/css/main.9f43ef07.chunk.css",
+    "main.js": "/acron/static/js/main.8c3f637f.chunk.js",
+    "main.js.map": "/acron/static/js/main.8c3f637f.chunk.js.map",
     "runtime-main.js": "/acron/static/js/runtime-main.099129ac.js",
     "runtime-main.js.map": "/acron/static/js/runtime-main.099129ac.js.map",
-    "static/js/2.a5c64a5c.chunk.js": "/acron/static/js/2.a5c64a5c.chunk.js",
-    "static/js/2.a5c64a5c.chunk.js.map": "/acron/static/js/2.a5c64a5c.chunk.js.map",
+    "static/js/2.2653b1f2.chunk.js": "/acron/static/js/2.2653b1f2.chunk.js",
+    "static/js/2.2653b1f2.chunk.js.map": "/acron/static/js/2.2653b1f2.chunk.js.map",
     "index.html": "/acron/index.html",
-    "precache-manifest.ace99bfc851c1bc2c9ecb812a8a3d07c.js": "/acron/precache-manifest.ace99bfc851c1bc2c9ecb812a8a3d07c.js",
+    "precache-manifest.8e4fa3004e80e162ed731f88dffdb683.js": "/acron/precache-manifest.8e4fa3004e80e162ed731f88dffdb683.js",
     "service-worker.js": "/acron/service-worker.js",
-    "static/css/main.3a24a090.chunk.css.map": "/acron/static/css/main.3a24a090.chunk.css.map",
-    "static/js/2.a5c64a5c.chunk.js.LICENSE.txt": "/acron/static/js/2.a5c64a5c.chunk.js.LICENSE.txt",
+    "static/css/main.9f43ef07.chunk.css.map": "/acron/static/css/main.9f43ef07.chunk.css.map",
+    "static/js/2.2653b1f2.chunk.js.LICENSE.txt": "/acron/static/js/2.2653b1f2.chunk.js.LICENSE.txt",
     "static/media/about.styles.scss": "/acron/static/media/bg-pattern.6b542492.svg"
   },
   "entrypoints": [
     "static/js/runtime-main.099129ac.js",
-    "static/js/2.a5c64a5c.chunk.js",
-    "static/css/main.3a24a090.chunk.css",
-    "static/js/main.f9466142.chunk.js"
+    "static/js/2.2653b1f2.chunk.js",
+    "static/css/main.9f43ef07.chunk.css",
+    "static/js/main.8c3f637f.chunk.js"
   ]
 }
