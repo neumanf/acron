@@ -1,0 +1,55 @@
+$pu: #4E5283;
+$pi: #E5B2CA;
+
+.about{
+    .container{
+        width: 100vw;
+        height: 85vh;
+        display: flex;
+
+        .left-half{
+            flex: 1;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            color: white;
+            padding: 0 3em;
+            background-image: url('../../assets/bg-pattern.svg'), linear-gradient(to top, #7028e4 0%, #e5b2ca 100%);
+            background-size: cover;
+            -webkit-box-shadow: 13px 18px 45px -18px rgba(0,0,0,0.75);
+            -moz-box-shadow: 13px 18px 45px -18px rgba(0,0,0,0.75);
+            box-shadow: 13px 18px 45px -18px rgba(0,0,0,0.75);
+            
+            .text{
+                h1{
+                    font-size: 36px;
+                    font-weight: 900;
+                }
+            }
+        }
+    
+        .right-half{
+            flex: 1;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            padding: 0 3em;
+
+            p{
+                color: $pu;
+            }
+
+            a{
+                color: $pi;
+            }
+        }
+    }
+}
+
+@media only screen and (max-width: 768px){
+    .about{
+        .container{
+            flex-direction: column;
+        }
+    }
+}

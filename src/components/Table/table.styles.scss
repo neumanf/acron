@@ -1,0 +1,30 @@
+$pu: #4E5283;
+$pi: #E5B2CA;
+$pl: #D9BBF9;
+
+thead {color: white;}
+tbody {color:$pu; font-weight: bold;}
+tfoot {color:$pu;}
+
+table{
+    width: 100%;
+    border-collapse: collapse;
+}
+
+table, th, td {
+  border: 5px solid $pu;
+}
+td, th{
+  padding: 5px;
+  text-align: center;
+}
+
+th{
+    background-color: rgba(182, 105, 245, 0.7);
+}
+
+td:nth-child(1) {  
+    background-color: rgba(182, 105, 245, 0.7);
+    color: white;
+    font-weight: bold;
+}

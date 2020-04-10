@@ -1,0 +1,374 @@
+$pu: #4E5283;
+$pi: #E5B2CA;
+$pl: #D9BBF9;
+
+.acron{
+    width: 100%;
+    height: 100vh;
+    background-color: #F3ECFF;
+
+    .header{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        width: 100%;
+        height: 15vh;
+        padding: 0 5em;
+        margin: 0;
+        background-color: white;
+        background-image: none;
+
+        .logo-container{
+            flex: 1;
+            margin-top: .5em;
+
+            .logo{
+                width: 15%;
+                height: auto;
+            }
+        }
+
+        .clear-btn{
+            background-color: transparent;
+            color: $pu;
+            border: none;
+            display: block;
+            text-align: center;
+            cursor: pointer;
+            outline: none;
+            overflow: hidden;
+            position: relative;
+            font-weight: 300;
+            font-size: 22px;
+            margin: 0 1em;
+            padding: 5px 10px;
+            transition: all .2s;
+        }
+
+        .run-btn{
+            background-color: $pi;
+            color: white;
+            border: none;
+            display: block;
+            text-align: center;
+            cursor: pointer;
+            outline: none;
+            overflow: hidden;
+            position: relative;
+            border-radius: 5px;
+            font-weight: 700;
+            font-size: 22px;
+            padding: 5px 10px;
+            transition: all .2s ease-in-out;
+
+            span {
+                cursor: pointer;
+                display: inline-block;
+                position: relative;
+                transition: .3s;
+
+                &:after {
+                    font-family: 'Font Awesome 5 Free';
+                    content: "\f04b";
+                    font-weight: 900;
+                    position: absolute;
+                    text-align: center;
+                    font-size: 20px;
+                    opacity: 0;
+                    top: 3px;
+                    right: -20px;
+                    transition: .3s;
+                }
+            }
+              
+            &:hover span {
+                padding-right: 25px;
+            }
+            
+            &:hover span:after {
+                opacity: 1;
+                right: 0;
+            }
+        }
+    }
+
+    .body{
+        display: flex;
+        color: $pu;
+
+        .left-half{
+            flex: 1;
+            display: flex;
+            flex-direction: column;
+            background: none;
+            height: 85vh;
+    
+            .inputs{
+                flex: 1;
+                display: flex;
+                flex-direction: column;
+                padding: 1em 2em;
+                margin: 2em;
+                border-radius: 15px;
+                background-color: white;
+                font-size: 24px;
+                -webkit-box-shadow: 0px 0px 40px -15px rgba(0,0,0,0.5);
+                -moz-box-shadow: 0px 0px 40px -15px rgba(0,0,0,0.5);
+                box-shadow: 0px 0px 40px -15px rgba(0,0,0,0.5);
+
+                p{
+                    font-weight: 700;
+                    margin: .5em 0;
+
+                    span{
+                        font-size: 12px;
+                    }
+                }
+
+                input{
+                    height: 2.5em;
+                }
+
+                .add-disc{
+                    background-color: $pl;
+                    color: white;
+                    border: none;
+                    display: block;
+                    text-align: center;
+                    cursor: pointer;
+                    outline: none;
+                    overflow: hidden;
+                    position: relative;
+                    border-radius: 5px;
+                    font-weight: 700;
+                    font-size: 18px;
+                    width: 200px;
+                    padding: 8px 10px;
+                    margin: 1em 0 0 0;
+                    transition: all .2s ease-in-out;
+                }
+            }
+
+            .disciplines{
+                flex: 2;
+                display: flex;
+                flex-direction: column;
+                overflow-y: scroll;
+                background-color: white;
+                margin: 0 3em 2em 3em;
+                border-radius: 15px;
+                -webkit-box-shadow: 0px 0px 40px -15px rgba(0,0,0,0.5);
+                -moz-box-shadow: 0px 0px 40px -15px rgba(0,0,0,0.5);
+                box-shadow: 0px 0px 40px -15px rgba(0,0,0,0.5);
+
+                .title{
+                    color: $pu;
+                    text-align: center;
+                    padding: .5em 0;
+                    border-bottom: .1rem solid $pu;
+                }
+
+                .disciplines-list{
+                    display: flex;
+                    flex-direction: column;
+                    overflow-x: hidden;
+                    margin: 0em 1em;
+
+                    .discipline-card{
+                        display: flex;
+                        justify-content: space-between;
+                        background-color: $pl;
+                        border-radius: 10px;
+                        margin-top: .9em;
+                        padding: 0.5em 1em;
+
+                        h4{
+                            color: white;
+                            font-weight: 700;
+                            font-size: 24px;
+                        }
+
+                        p{
+                            color: white;
+                            padding-top: .3em;
+                        }
+
+                        button{
+                            color: white;
+                            background-color: #CCA7A2;
+                            border: none;
+                            display: block;
+                            text-align: center;
+                            cursor: pointer;
+                            outline: none;
+                            overflow: hidden;
+                            position: relative;
+                            border-radius: 5px;
+                            font-size: 18px;
+                            padding: 5px 10px;
+                            transition: all .2s ease-in-out;
+
+                            i{
+                                display: flex;
+                                justify-content: center;
+                                align-items: center;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    
+        .right-half{
+            height: 85vh;
+            flex: 1;
+            background: none;
+            display: flex;
+            flex-direction: column;
+            margin-right: 3em;
+            
+            .chronograms{
+                width: 100%;
+                height: 85vh;
+                margin: 3em 2em 2em 0;
+                overflow-x: hidden;
+                overflow-y: scroll;
+                background-color: white;
+                border-radius: 15px;
+                -webkit-box-shadow: 0px 0px 40px -15px rgba(0,0,0,0.5);
+                -moz-box-shadow: 0px 0px 40px -15px rgba(0,0,0,0.5);
+                box-shadow: 0px 0px 40px -15px rgba(0,0,0,0.5);
+
+                .title{
+                    color: $pu;
+                    text-align: center;
+                    padding: .5em 0;
+                    border-bottom: .1rem solid $pu;
+                }
+
+                .tables{
+                    margin: 1em .5em;
+                }
+            }
+        }
+    }
+
+    .clicked{
+        &:active{
+            transform: scale(.8);
+        }
+    }
+}
+
+.tables{
+    .table-disc{
+        color: white;
+        background-color: $pi;
+        border-radius: 5px;
+        font-weight: bold;
+        margin: 0 .5em;
+        padding: .3em .5em;
+    }
+}
+
+@media only screen and (max-width: 970px) {
+    .acron{
+        .body{
+            .left-half{
+                .inputs{
+                    p{
+                        font-size: 18px;
+                    }
+
+                    .add-disc{
+                        font-size: 16px;
+                        width: 180px;
+                    }
+                }
+                .disciplines{
+                    .title{
+                        font-size: 14px;
+                    }
+
+                    .disciplines-list{
+                        .discipline-card{
+                            h4{
+                                font-size: 16px;
+                                margin-top: .3em;
+                            }
+
+                            p{
+                                font-size: 12px;
+                                margin-top: .5em;
+                            }
+                        }
+                    }
+                }
+            }
+
+            .right-half{
+                margin-right: 3em;
+
+                .chronograms{
+                    .title{
+                        font-size: 14px;
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    .acron{
+        overflow-y: scroll;
+
+        .header{
+            padding: 0 2em;
+
+            .logo-container{
+                margin-top: 0;
+            }
+
+            .clear-btn{
+                font-size: 12px;
+            }
+
+            .run-btn{
+                font-size: 12px;
+            }
+        }
+
+        .body{
+            flex-direction: column;
+
+            .left-half{
+                .inputs{
+                    p{
+                        font-size: 18px;
+                    }
+
+                    .add-disc{
+                        font-size: 16px;
+                        width: 180px;
+                    }
+                }
+
+                .disciplines{
+                    p{
+                        font-size: 12px;
+                    }
+                }
+            }
+
+            .right-half{
+                margin: 0 3em;
+
+                .chronograms{
+                    overflow-x: scroll;
+                    margin-top: 1em;
+                }
+            }
+        }
+    }
+}
