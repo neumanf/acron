@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/acron/static/css/main.3a24a090.chunk.css",
-    "main.js": "/acron/static/js/main.a7b0f062.chunk.js",
-    "main.js.map": "/acron/static/js/main.a7b0f062.chunk.js.map",
+    "main.js": "/acron/static/js/main.f9466142.chunk.js",
+    "main.js.map": "/acron/static/js/main.f9466142.chunk.js.map",
     "runtime-main.js": "/acron/static/js/runtime-main.099129ac.js",
     "runtime-main.js.map": "/acron/static/js/runtime-main.099129ac.js.map",
     "static/js/2.a5c64a5c.chunk.js": "/acron/static/js/2.a5c64a5c.chunk.js",
     "static/js/2.a5c64a5c.chunk.js.map": "/acron/static/js/2.a5c64a5c.chunk.js.map",
     "index.html": "/acron/index.html",
-    "precache-manifest.7662e0fe63f62b5fbda097066d7afc2d.js": "/acron/precache-manifest.7662e0fe63f62b5fbda097066d7afc2d.js",
+    "precache-manifest.ace99bfc851c1bc2c9ecb812a8a3d07c.js": "/acron/precache-manifest.ace99bfc851c1bc2c9ecb812a8a3d07c.js",
     "service-worker.js": "/acron/service-worker.js",
     "static/css/main.3a24a090.chunk.css.map": "/acron/static/css/main.3a24a090.chunk.css.map",
     "static/js/2.a5c64a5c.chunk.js.LICENSE.txt": "/acron/static/js/2.a5c64a5c.chunk.js.LICENSE.txt",
@@ -18,6 +18,6 @@
     "static/js/runtime-main.099129ac.js",
     "static/js/2.a5c64a5c.chunk.js",
     "static/css/main.3a24a090.chunk.css",
-    "static/js/main.a7b0f062.chunk.js"
+    "static/js/main.f9466142.chunk.js"
   ]
 }
