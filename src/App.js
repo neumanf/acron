@@ -41,11 +41,11 @@ const pageStyle = {
 
 const App = () => {
   return (
-    <BrowserRouter forceRefresh={!supportsHistory}>
+    <BrowserRouter basename="/acron" forceRefresh={!supportsHistory}>
       <AnimatePresence>
         <Switch>
           <Route 
-            path="/acron" 
+            path="/" 
             component={
               () => <Homepage 
                       pageVariants={pageVariants} 
@@ -56,7 +56,7 @@ const App = () => {
             exact 
           />
           <Route 
-            path="/acron/about" 
+            path="/about" 
             component={
               () => <About 
                       pageVariants={pageVariants} 
@@ -66,7 +66,7 @@ const App = () => {
             } 
           />
           <Route 
-            path="/acron/usage" 
+            path="/usage" 
             component={
               () => <Usage 
                       pageVariants={pageVariants} 
@@ -76,7 +76,7 @@ const App = () => {
             } 
           />
           <Route 
-            path="/acron/app" 
+            path="/app" 
             component={
               () => <Acron 
                       pageVariants={pageVariants} 
