@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/acron/precache-manifest.8e4fa3004e80e162ed731f88dffdb683.js"
+  "/acron/precache-manifest.2aac15f4a7476cf6833c125a1853ef0b.js"
 );
 
 self.addEventListener('message', (event) => {
