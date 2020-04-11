@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "b3137bb3bca8325a1a631976c25454b0",
+    "revision": "17f21d0df2ad76d9c3f43f1204db5202",
     "url": "/acron/index.html"
   },
   {
-    "revision": "f749170f110270ad2f4f",
+    "revision": "86005ee53ca6be1e40ec",
     "url": "/acron/static/css/main.9f43ef07.chunk.css"
   },
   {
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/acron/static/js/2.2653b1f2.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "f749170f110270ad2f4f",
-    "url": "/acron/static/js/main.5ddc5b46.chunk.js"
+    "revision": "86005ee53ca6be1e40ec",
+    "url": "/acron/static/js/main.f1e550a0.chunk.js"
   },
   {
     "revision": "1d9239b5f0d64ed4f43b",
