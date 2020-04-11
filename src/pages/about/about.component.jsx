@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 import { motion } from "framer-motion";
 
 import Header from '../../components/Header/header.component'
@@ -28,7 +29,7 @@ const About = (props) => (
                 Ao simplesmente inserir o nome da disciplina e seus horários disponíveis (os quais estão
                 disponíveis durante o período de cadastramento), o aplicativo será capaz de computar todos 
                 os cronogramas possíveis. <br /><br />Veja mais detalhes 
-                <a href="/usage"> aqui</a>.
+                <Link to="/usage"> aqui</Link>.
                 </p>
             </div>
         </div>
